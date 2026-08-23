@@ -1,0 +1,8 @@
+{
+  "name": "Neuroscience Nation",
+  "description": "A youth-led global initiative expanding access to neuroscience education, structured research fellowships, and chapters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

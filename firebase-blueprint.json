@@ -1,0 +1,32 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile with onboarding status and chapter assignment",
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending_step_1", "approved_step_1", "ip_submitted", "fully_approved", "revoked"]
+        },
+        "chapter": {
+          "type": "string",
+          "description": "Assigned chapter name"
+        }
+      },
+      "required": ["email", "name", "status"]
+    }
+  },
+  "firestore": {
+    "users/{userId}": {
+      "schema": "User",
+      "description": "User profiles and statuses"
+    }
+  }
+}

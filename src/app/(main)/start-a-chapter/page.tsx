@@ -16,11 +16,11 @@ import {
   CheckCircle2, 
   ArrowRight 
 } from 'lucide-react';
-import { FAQS } from '@/lib/constants';
+import { FAQS, CHAPTER_APPLICATION_URL } from '@/lib/constants';
 import { AnimateOnScroll } from '@/components/animate-on-scroll';
 
 export default function StartChapterPage() {
-  const applicationFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSf-37-sNsUx_C1AVKeUqquHpqcM7v2vfKmO8BFIeHJIiUkoaQ/viewform?usp=sharing&ouid=106108358221363664469";
+  const applicationFormUrl = CHAPTER_APPLICATION_URL;
 
   const benefits = [
     {
@@ -52,11 +52,13 @@ export default function StartChapterPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button 
+                asChild
                 size="lg" 
                 className="rounded-full"
-                onClick={(e) => { e.preventDefault(); }}
               >
-                Apply Now <ArrowRight className="ml-2 h-4 w-4" />
+                <a href={applicationFormUrl} target="_blank" rel="noopener noreferrer">
+                  Apply Now <ArrowRight className="ml-2 h-4 w-4" />
+                </a>
               </Button>
             </div>
           </AnimateOnScroll>
@@ -137,12 +139,14 @@ export default function StartChapterPage() {
             Submit your application today and our regional leads will get in touch to help you launch your chapter.
           </p>
           <Button 
+            asChild
             size="lg" 
             variant="secondary" 
             className="rounded-full"
-            onClick={(e) => { e.preventDefault(); }}
           >
-            Submit Application
+            <a href={applicationFormUrl} target="_blank" rel="noopener noreferrer">
+              Submit Application
+            </a>
           </Button>
         </div>
       </section>

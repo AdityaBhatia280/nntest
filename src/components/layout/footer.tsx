@@ -40,11 +40,6 @@ export function Footer() {
                     </Link>
                   </li>
                 ))}
-                <li>
-                  <Link href="/portal" className="hover:text-white transition-colors">
-                    Chapter Login
-                  </Link>
-                </li>
               </ul>
             </div>
             
@@ -67,9 +62,12 @@ export function Footer() {
               <p className="mt-4 text-slate-400 text-sm leading-relaxed">
                 Have questions about starting a chapter, research fellowships, or partnerships? Reach out to us anytime.
               </p>
-              <div className="mt-3">
-                <Link href="/contact" className="text-sm text-primary hover:underline font-medium">
-                  Contact our team &rarr;
+              <div className="mt-3 space-y-1">
+                <a href="mailto:neuroscience.nation@gmail.com" className="text-sm text-primary hover:underline font-medium block">
+                  neuroscience.nation@gmail.com
+                </a>
+                <Link href="/contact" className="text-sm text-slate-400 hover:text-white transition-colors block">
+                  Contact page &rarr;
                 </Link>
               </div>
             </div>

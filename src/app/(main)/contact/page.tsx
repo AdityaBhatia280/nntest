@@ -24,22 +24,22 @@ export default function ContactPage() {
               <CardDescription>Prefer to reach out directly? Here&apos;s how.</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
-              <div className="flex items-center gap-4 text-foreground group">
+              <a href="mailto:neuroscience.nation@gmail.com" className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group">
                 <div className="bg-secondary p-3 rounded-full group-hover:bg-primary/10 transition-colors">
                   <Mail className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="font-semibold">Email</h3>
-                  <p className="text-muted-foreground">xyz</p>
+                  <p className="text-muted-foreground group-hover:text-primary transition-colors">neuroscience.nation@gmail.com</p>
                 </div>
-              </div>
-               <a href="https://www.instagram.com/xyz" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group">
+              </a>
+               <a href="https://www.instagram.com/neuroscience_nation/" target="_blank" rel="noopener noreferrer" className="flex items-center gap-4 text-foreground hover:text-primary transition-colors group">
                 <div className="bg-secondary p-3 rounded-full group-hover:bg-primary/10 transition-colors">
                   <Instagram className="h-6 w-6 text-primary" />
                 </div>
                 <div>
                   <h3 className="font-semibold">Instagram</h3>
-                  <p className="text-muted-foreground">@xyz</p>
+                  <p className="text-muted-foreground">@neuroscience_nation</p>
                 </div>
               </a>
             </CardContent>

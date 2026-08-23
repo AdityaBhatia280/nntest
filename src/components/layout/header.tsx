@@ -47,16 +47,6 @@ export function Header() {
                   {link.label}
                 </Link>
               ))}
-              <Link
-                href="/portal"
-                onClick={() => setIsMobileMenuOpen(false)}
-                className={cn(
-                  "text-lg p-2 rounded-md",
-                  pathname === "/portal" ? "text-primary bg-secondary" : "text-muted-foreground hover:bg-secondary/50"
-                )}
-              >
-                Chapter Login
-              </Link>
             </nav>
             <div className="mt-6">
               <Button asChild className="w-full" variant="default">
@@ -103,17 +93,6 @@ export function Header() {
                 {link.label}
               </Link>
             ))}
-            <Link
-              href="/portal"
-              className={cn(
-                "transition-colors hover:text-primary px-4 py-2 rounded-full text-sm font-medium text-center leading-tight flex flex-col items-center justify-center",
-                pathname === "/portal"
-                  ? "text-primary"
-                  : "text-foreground/70"
-              )}
-            >
-              <span>Chapter Login</span>
-            </Link>
           </nav>
           
           <div className="flex items-center gap-3">

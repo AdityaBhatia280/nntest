@@ -9,8 +9,13 @@ export const NAV_LINKS = [
 ];
 
 export const SOCIAL_LINKS = [
-  { name: "Instagram", href: "https://www.instagram.com/xyz" },
+  { name: "Instagram", href: "https://www.instagram.com/neuroscience_nation/" },
 ];
+
+export const CONTACT_EMAIL = "neuroscience.nation@gmail.com";
+
+export const FELLOWSHIP_APPLICATION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSfXuELNBaBjjxyAzZ1pCIXk1mFFBHCe5_otLI8s5QFKXyUmHA/viewform";
+export const CHAPTER_APPLICATION_URL = "https://docs.google.com/forms/d/e/1FAIpQLSdUI1nMfP8fIcKw-7Dy2OSuCDYvNZwPJQPdeOIVTE_gJTDLwg/viewform";
 
 export const FAQS = [
   {

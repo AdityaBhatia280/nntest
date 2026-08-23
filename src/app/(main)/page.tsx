@@ -71,10 +71,12 @@ export default function HomePage() {
 
             {/* Call to Action Buttons */}
             <div className="mt-10 flex flex-wrap items-center justify-center gap-4 w-full max-w-md">
-              <Button asChild size="lg" className="rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-pink-500/25 bg-primary hover:bg-primary/90 text-primary-foreground transition-all hover:scale-105">
-                <a href="https://forms.gle/caWhUtN1zhSJpNfa6" target="_blank" rel="noopener noreferrer">
-                  Join Fellowship <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+              <Button 
+                size="lg" 
+                className="rounded-full px-8 py-6 text-base font-semibold shadow-lg shadow-pink-500/25 bg-primary hover:bg-primary/90 text-primary-foreground transition-all hover:scale-105"
+                onClick={(e) => { e.preventDefault(); }}
+              >
+                Join Fellowship <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
               
               {/* Clickable Start a Chapter button */}

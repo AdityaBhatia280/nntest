@@ -51,10 +51,12 @@ export default function StartChapterPage() {
               Empower your school or community to explore neuroscience education, research fellowships, and student leadership. Launch your own localized Neuro Nation Chapter today.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <Button asChild size="lg" className="rounded-full">
-                <a href={applicationFormUrl} target="_blank" rel="noopener noreferrer">
-                  Apply Now <ArrowRight className="ml-2 h-4 w-4" />
-                </a>
+              <Button 
+                size="lg" 
+                className="rounded-full"
+                onClick={(e) => { e.preventDefault(); }}
+              >
+                Apply Now <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
           </AnimateOnScroll>
@@ -134,10 +136,13 @@ export default function StartChapterPage() {
           <p className="text-lg mb-10 opacity-90">
             Submit your application today and our regional leads will get in touch to help you launch your chapter.
           </p>
-          <Button asChild size="lg" variant="secondary" className="rounded-full">
-            <a href={applicationFormUrl} target="_blank" rel="noopener noreferrer">
-              Submit Application
-            </a>
+          <Button 
+            size="lg" 
+            variant="secondary" 
+            className="rounded-full"
+            onClick={(e) => { e.preventDefault(); }}
+          >
+            Submit Application
           </Button>
         </div>
       </section>

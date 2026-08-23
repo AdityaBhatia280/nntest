@@ -5,11 +5,11 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'Neuroscience Nation',
-  description: 'xyz',
+  description: 'Empowering the next generation of thinkers, researchers, and changemakers through youth-led neuroscience education, structured research fellowships, and global chapters.',
   icons: {
-    icon: '/favicon.ico?v=2',
-    shortcut: '/favicon.ico?v=2',
-    apple: '/apple-touch-icon.png',
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png',
   },
 };
 

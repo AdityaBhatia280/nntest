@@ -13,7 +13,7 @@ export default function ContactPage() {
         <div className="text-center max-w-3xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold font-headline">Get in Touch</h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Have questions about neuroscience education, fellowship programs, or starting a chapter? We're here to help. Reach out to us through our direct channels.
+            Have questions about neuroscience education, fellowship programs, or starting a chapter? We&apos;re here to help. Reach out to us through our direct channels.
           </p>
         </div>
 
@@ -21,7 +21,7 @@ export default function ContactPage() {
           <Card>
             <CardHeader>
               <CardTitle>Direct Contact</CardTitle>
-              <CardDescription>Prefer to reach out directly? Here's how.</CardDescription>
+              <CardDescription>Prefer to reach out directly? Here&apos;s how.</CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
               <div className="flex items-center gap-4 text-foreground group">

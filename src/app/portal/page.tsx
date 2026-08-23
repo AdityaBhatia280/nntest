@@ -229,7 +229,7 @@ export default function PortalPage() {
                     <AccordionTrigger className="font-medium bg-secondary px-4 rounded-lg">Instagram Setup Guide</AccordionTrigger>
                     <AccordionContent className="pt-4 px-2 space-y-2 text-muted-foreground">
                       <ul className="list-disc pl-5 space-y-1">
-                        <li>Name must include "sdgchamps" or "sdgchampions".</li>
+                        <li>Name must include &quot;sdgchamps&quot; or &quot;sdgchampions&quot;.</li>
                         <li>Must follow official @sdgchamps.</li>
                         <li>Must link the official website in bio.</li>
                       </ul>
@@ -274,14 +274,14 @@ export default function PortalPage() {
                     <DialogHeader>
                       <DialogTitle className="font-headline text-2xl">Campus Chapters: Leadership Positions</DialogTitle>
                       <DialogDescription>
-                        Optional structure you can follow. You don't need all the officers, you can remove or add if needed for flexibility.
+                        Optional structure you can follow. You don&apos;t need all the officers, you can remove or add if needed for flexibility.
                       </DialogDescription>
                     </DialogHeader>
                     <div className="flex-1 overflow-y-auto pr-4 mt-4 max-h-[60vh]">
                       <div className="space-y-6 text-sm text-foreground pb-4">
                         <div className="p-4 bg-primary/10 text-primary rounded-lg">
                           <p className="font-medium mb-2">Wondering how to recruit new chapter leaders?</p>
-                          <p>A great way to sort through leadership applications is to create a google form that you send out to your entire chapter. The google form can have some basic questions regarding a member's interest in the positions and their qualifications.</p>
+                          <p>A great way to sort through leadership applications is to create a google form that you send out to your entire chapter. The google form can have some basic questions regarding a member&apos;s interest in the positions and their qualifications.</p>
                         </div>
                         
                         <div className="space-y-4">
